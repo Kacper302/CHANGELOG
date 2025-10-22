@@ -21,6 +21,13 @@ main{
     align-items: center;
     gap: 15px;
 }
+h1{
+    font-size: 45px;
+}
+p{
+    color: rgb(168, 156, 139);
+    
+}
 #progress-bar{
     margin-top: 25px;
     display: flex;
@@ -57,4 +64,17 @@ main{
     border-radius: 50%;
     background-color: black;
     margin-bottom: 10px;
+}
+button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 1.5em;
+   &:hover{
+    scale: 1.02;
+    transition: all 0.2s ease-in-out;
+   }
 }
