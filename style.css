@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-#changelog-container{
+main{
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
@@ -22,18 +22,39 @@ body{
     gap: 15px;
 }
 #progress-bar{
+    margin-top: 25px;
     display: flex;
-    margin: 5px;
-}
-#dot-box , #progress-box, #date-box, .dot, .date, .progress  {
    
-    margin: 10px;
 }
-#progress-box{
-    border-left: 2px solid black;
+#dot-box , #progress-box,  .dot, .date, .progress  {
+   
+    margin-bottom: 15px;
     margin-left: 5px;
+}
+#date-box,.dot, .date{
+    margin-right: 0;
+}
+
+
+.progress{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#progress-box{
+    border-left: 4px solid black;
+   
 }
 
 #dot-box{
-    transform: translateX(85%);
+    transform: translateX(70%);
+    margin-left: 0;
+   
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+    margin-bottom: 10px;
 }
